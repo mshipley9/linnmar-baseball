@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linn-Mar Baseball Stats</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; color: #fff; font-family: Arial, sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; }
+  h1 { font-family: 'Georgia', serif; font-size: clamp(28px, 5vw, 48px); color: #fff; margin-bottom: 8px; }
+  h1 span { color: #B8202D; }
+  p { color: #999; font-size: 14px; margin-bottom: 40px; }
+  .cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .card { background: #1c1c1c; border: 1px solid #2a2a2a; border-top: 4px solid #B8202D; border-radius: 4px; padding: 32px 28px; width: 260px; text-decoration: none; color: #fff; transition: border-color 0.15s, background 0.15s; }
+  .card:hover { border-color: #B8202D; background: #242424; }
+  .card .icon { font-size: 32px; margin-bottom: 12px; }
+  .card h2 { font-size: 18px; margin-bottom: 8px; }
+  .card p { color: #888; font-size: 13px; margin-bottom: 0; }
+  footer { margin-top: 48px; color: #444; font-size: 12px; }
+</style>
+</head>
+<body>
+  <h1><span>Linn-Mar</span> Baseball</h1>
+  <p>Marion, Iowa &nbsp;&middot;&nbsp; Statistics 1981&ndash;Present</p>
+  <div class="cards">
+    <a class="card" href="linn-mar-hitting-stats.html">
+      <div class="icon">⚾</div>
+      <h2>Hitting Stats</h2>
+      <p>Career &amp; season hitting statistics, records, and player comparison</p>
+    </a>
+    <a class="card" href="linn-mar-baseball-stats.html">
+      <div class="icon">📊</div>
+      <h2>Full Program</h2>
+      <p>Team history, hitting, pitching, and all-time records since 1981</p>
+    </a>
+  </div>
+  <footer>Linn-Mar Baseball &middot; Updated 6-21-2026</footer>
+</body>
+</html>
